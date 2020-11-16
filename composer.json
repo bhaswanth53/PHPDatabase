@@ -1,0 +1,30 @@
+{
+    "name": "bhaswanth53/phpdb",
+    "version": "1.0",
+    "description": "Database utilities for PHP and MySql",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "mysql",
+        "database",
+        "bhaswanth53",
+        "ORM",
+        "query builder",
+        "php database utilities"
+    ],
+    "authors": [
+        {
+            "name": "Bhaswanth Chiruthanuru",
+            "email": "bhaswanth22@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "autoload": {
+		"psr-4": {
+            "phpdb\\Facades\\": "Facades/"
+        }
+    }
+}
